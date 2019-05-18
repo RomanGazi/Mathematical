@@ -18,9 +18,9 @@ public class GCD_LCM {
                     }
                 }
             }
-            System.out.println(res);
+            System.out.println("GCD " +res);
             int lcm = (x * y)/res;
-            System.out.println(lcm);
+            System.out.println("LCM " +lcm);
             res = 0;
             T--;
         }
